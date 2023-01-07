@@ -95,35 +95,34 @@ form input {
   padding: 5px 10px;
 }
 
-.form-container menu .dropdown-box {
-  display: flex;
-  justify-content: space-between;
-  }
 
-.form-container menu .dropdown-box .dropdown {
+
+.form-container menu .dropdown {
   display: inline-block;
   position: relative;
+  text-align: center;
 }
 
-.form-container menu .dropdown-box .dropdown .dropdown-button {
+.form-container menu .dropdown .dropdown-button {
   background-color: transparent;
   outline: none;
   border: none;
   color: white;
+  
 }
 
-.form-container menu .dropdown-box .dropdown .dropdown-option {
+.form-container menu .dropdown .dropdown-option {
   display: none;
   position: absolute;
   overflow: auto;
   width: 100px;
 }
 
-.form-container menu .dropdown-box .dropdown:hover .dropdown-option {
+.form-container menu .dropdown:hover .dropdown-option {
   display: block;
 }
 
-.form-container menu .dropdown-box .dropdown .dropdown-option a {
+.form-container menu .dropdown .dropdown-option a {
   display: block;
   color: gray;
   background-color: yellow;
