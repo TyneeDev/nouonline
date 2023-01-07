@@ -135,6 +135,111 @@ Justify-content:space-between;
   border-bottom: 1px solid green;
 }
 
+
+.details-box {
+
+  background-image: url("profile-bg.jpg");
+
+  padding:100px 0;
+
+  margin-top:50px;
+
+}
+
+.details-card {
+
+  width: 60%;
+
+  border: 2px solid white;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  background: linear-gradient(
+
+    90deg,
+
+    rgb(163, 226, 252),
+
+    rgb(255, 255, 255),
+
+    rgb(163, 226, 252)
+
+  );
+
+  padding: 20px;
+
+}
+
+.details-card .card-1 {
+
+  border: 2px solid white;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  background: linear-gradient(180deg, rgb(163, 226, 252), rgb(255, 255, 255));
+
+  padding: 20px;
+
+}
+
+.details-box .details-card .passport {
+
+   width:150px;
+
+}
+
+.details-card .card-2 {
+
+  border: 2px solid white;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  background: linear-gradient(180deg, rgb(163, 226, 252), rgb(255, 255, 255));
+
+  padding: 20px;
+
+  border-radius: 4px;
+
+  color: green;
+
+}
+
+.red-btn {
+
+   background: darkred;
+
+   color:white;
+
+   border:none;
+
+   padding: 10px 15px;
+
+   border-radius: 5px;
+
+}
+
+.green-btn {
+
+   background: darkgreen;
+
+   color:white;
+
+   border: none;
+
+   padding:10px 15px;
+
+   border-radius:5px;
+
+}
+
+
+
 .pagination {
   display: flex;
   justify-content: space-between;
