@@ -172,7 +172,7 @@ Justify-content:space-between;
 
 }
 
-.details-box details-card .card-1 {
+.details-box .details-card .card-1 {
 
   border: 2px solid white;
 
@@ -192,7 +192,7 @@ Justify-content:space-between;
 
 }
 
-.details-box details-card .card-2 {
+.details-box .details-card .card-2 {
 
   border: 2px solid white;
 
@@ -224,7 +224,7 @@ Justify-content:space-between;
 
 }
 
-.green-btn {
+.details-box .details-card .green-btn {
 
    background: darkgreen;
 
