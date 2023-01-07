@@ -95,15 +95,18 @@ form input {
   padding: 5px 10px;
 }
 
+.form-container menu .box {
+display:flex;
+Justify-content:space-between;
+}
 
-
-.form-container menu .dropdown {
+.form-container menu .box .dropdown {
   display: inline-block;
   position: relative;
   text-align: center;
 }
 
-.form-container menu .dropdown .dropdown-button {
+.form-container menu .box .dropdown .dropdown-button {
   background-color: transparent;
   outline: none;
   border: none;
@@ -111,18 +114,18 @@ form input {
   
 }
 
-.form-container menu .dropdown .dropdown-option {
+.form-container menu .box .dropdown .dropdown-option {
   display: none;
   position: absolute;
   overflow: auto;
   width: 100px;
 }
 
-.form-container menu .dropdown:hover .dropdown-option {
+.form-container menu .box .dropdown:hover .dropdown-option {
   display: block;
 }
 
-.form-container menu .dropdown .dropdown-option a {
+.form-container menu .box .dropdown .dropdown-option a {
   display: block;
   color: gray;
   background-color: yellow;
