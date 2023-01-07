@@ -146,7 +146,7 @@ Justify-content:space-between;
 
 }
 
-.details-card {
+.details-box .details-card {
 
   width: 60%;
 
@@ -172,7 +172,7 @@ Justify-content:space-between;
 
 }
 
-.details-card .card-1 {
+.details-box details-card .card-1 {
 
   border: 2px solid white;
 
@@ -192,7 +192,7 @@ Justify-content:space-between;
 
 }
 
-.details-card .card-2 {
+.details-box details-card .card-2 {
 
   border: 2px solid white;
 
@@ -210,7 +210,7 @@ Justify-content:space-between;
 
 }
 
-.red-btn {
+.details-box .details-card .red-btn {
 
    background: darkred;
 
